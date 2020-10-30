@@ -1,0 +1,7 @@
+homeDir : c:\tst
+dataIn : \in
+dataOut : \out
+dataRead: \read
+dataDiscard: \discard
+validReadFileExtension: .dat
+doneFileExtension: .done
