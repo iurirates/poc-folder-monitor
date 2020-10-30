@@ -6,17 +6,17 @@ This project was built to monitor a directory and when new files are inserted it
 The idea of the records contained in the files is to import sellers, customers and sales with their items included.
 
 ###### Example registration for seller
-The salesperson data has the format id 001 and the line will have the following format.
-001çCPFçNameçSalary
+The salesperson data has the format id 001 and the line will have the following format:
+- 001çCPFçNameçSalary
 
 ###### Example of customer registration
-The customer data has the format id 002 and the line will have the following format.
-002çCNPJçNameçBusiness Area
+The customer data has the format id 002 and the line will have the following format:
+- 002çCNPJçNameçBusiness Area
 
 ###### Registration example for sale
 Sales data has the format id 003. Within the sales line, there is the list
-of items, which is surrounded by square brackets []. The line will have the following format.
-003çSale IDç [Item ID-Item Quantity-Item Price] çSalesman name
+of items, which is surrounded by square brackets []. The line will have the following format:
+- 003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
 
 ## Directory Structure
 The directory structure is all defined inside the application.yml file that is inside the "src / resources" directory and it is validated when the application starts, if the folders do not exist, it recreates in this hierarchy:
